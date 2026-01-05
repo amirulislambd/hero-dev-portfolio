@@ -1,0 +1,56 @@
+/* control fo full website styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* sheared style */
+/* fonts */
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+/* logo */
+.logo h2{
+    font-size: 45px;
+    font-weight: 900;
+}
+.color-orange{
+    color: #FD6E0A;
+}
+/* button */
+.btn{
+    background-color:#FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+}
+
+
+/* main styles */
+header {
+  background-color: #fff8f3;
+  padding-top: 50px;
+}
+nav {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+nav .menu{
+display: flex;
+list-style: none;
+gap: 51px;
+align-items: center;
+}
+nav .menu a{
+    font-size: 20px;
+    text-decoration: none;
+}
