@@ -58,20 +58,22 @@
 /* main styles */
 header {
   background-color: #fff8f3;
-  background: url("../images/developer.png"), url("../images/header_bg.png"),
+  background: url("../images/developer.png"), 
+  url("../images/header_bg.png"), 
     #fff8f3;
-  background-position: top left, bottom right;
+  background-position: 23px 45px, bottom right;
   background-repeat: no-repeat;
   padding-top: 50px;
 }
 
 /* navbar */
-nav {
+nav{
   width: 71%;
   max-width: 1140px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 nav .menu {
   display: flex;
@@ -88,7 +90,7 @@ nav .menu a {
   max-width: 585px;
 }
 #banner {
-  margin: 47px 38px 0 230px;
+  margin: 47px 38px 0 370px;
   display: flex;
   justify-content: space-between;
   align-items: center;
